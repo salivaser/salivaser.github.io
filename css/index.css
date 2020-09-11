@@ -248,7 +248,7 @@ hr:before,
   --btn-color: #fff;
   --btn-bg: #49b1f5;
   --text-bg-hover: #49b1f5;
-  --light-grey: #eee;
+  --light-grey: #80bdab;
   --white: #fff;
   --text-highlight-color: #1f2d3d;
   --blockquote-color: #6a737d;
@@ -270,15 +270,29 @@ body {
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-*::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
 }
-*::-webkit-scrollbar-thumb {
-  background: var(--btn-bg);
+::-webkit-scrollbar-track {
+  background-color: rgba(73,177,245,0.2);
+  border-radius: 2em;
 }
-*::-webkit-scrollbar-track {
+::-webkit-scrollbar-thumb {
+  background-color: #e58a8a;
+  background-image: -webkit--webkit-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
+  background-image: -webkit--moz-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
+  background-image: -webkit--o-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
+  background-image: -webkit--ms-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
+  border-radius: 2em;
+}
+::-webkit-scrollbar-corner {
   background-color: transparent;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #e58a8a;
 }
 input::placeholder {
   color: var(--font-color);
@@ -1767,15 +1781,6 @@ figure.highlight pre .tag .attr,
 figure.highlight pre .javascript .function {
   color: #7c4dff;
 }
-#article-container figure.highlight .line:before {
-  display: inline-block;
-  padding: 0 0.3rem 0 0;
-  min-width: 1.6rem;
-  color: rgba(144,164,174,0.5);
-  content: counter(line);
-  counter-increment: line;
-  text-align: left;
-}
 #article-container figure.highlight .line.marked {
   background-color: rgba(128,203,196,0.251);
 }
@@ -1830,8 +1835,6 @@ figure.highlight pre .javascript .function {
   background: #f6f8fa;
   color: #90a4ae;
   line-height: 1.6;
-  counter-reset: line;
-  white-space: pre-wrap;
 }
 blockquote {
   margin: 0 0 1rem;
@@ -3581,6 +3584,9 @@ _:future,
   text-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,0.3);
   font-size: 0.78em;
   cursor: pointer;
+}
+#page-header a {
+  color: #e3fdfd;
 }
 #mobile-sidebar #menu_mask {
   position: fixed;
