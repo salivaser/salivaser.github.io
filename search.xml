@@ -5,31 +5,6 @@
     
     <entry>
       <title>原来你也在这里</title>
-      <link href="/2020/09/21/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E4%B9%9F%E5%9C%A8%E8%BF%99%E9%87%8C%20-%20%E5%89%AF%E6%9C%AC/"/>
-      <url>/2020/09/21/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E4%B9%9F%E5%9C%A8%E8%BF%99%E9%87%8C%20-%20%E5%89%AF%E6%9C%AC/</url>
-      
-        <content type="html"><![CDATA[<!DOCTYPE html><html>    <head>        <meta charset="UTF-8">        <title></title>        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">        <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">        <link href="//vjs.zencdn.net/5.4.6/video-js.min.css" rel="stylesheet">        <script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>        <style>            body {                padding: 0;                margin: 0;            }            div.videocontent {                width:100%;            }            div.wrapper {                max-width:750px;                 margin: 0 auto;            }        </style>    </head>    <body>        <div class="wrapper">            <div class="videocontent">                <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" controls preload="none" poster="http://cdn.jsdelivr.net/gh/salivaser/bed/img/ym9v87.png" data-setup="{}">                    <source src="http://cdn.jsdelivr.net/gh/salivaser/video/kouqin.mp4" type="video/mp4">                </video>            </div>        </div>    </body></html>]]></content>
-      
-      
-      <categories>
-          
-          <category> 轻音乐 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 口琴 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>原来你也在这里</title>
       <link href="/2020/09/21/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E4%B9%9F%E5%9C%A8%E8%BF%99%E9%87%8C/"/>
       <url>/2020/09/21/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E4%B9%9F%E5%9C%A8%E8%BF%99%E9%87%8C/</url>
       
